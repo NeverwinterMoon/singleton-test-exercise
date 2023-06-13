@@ -1,0 +1,20 @@
+{
+  "name": "singleton-test-exercise",
+  "version": "1.0.0",
+  "description": "Singleton Test Exercise",
+  "license": "ISC",
+  "author": "NeverwinterMoon",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --colors --trace-warnings --timeout 1000 \"./{,!(node_modules)/**/}*.spec.mjs\""
+  },
+  "dependencies": {
+    "@inquirer/prompts": "2.1.1",
+    "axios": "1.4.0"
+  },
+  "devDependencies": {
+    "chai": "4.3.7",
+    "mocha": "10.2.0",
+    "sinon": "15.1.2"
+  }
+}
